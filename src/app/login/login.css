@@ -1,0 +1,14 @@
+body{
+    font-family: Poppins;
+    overscroll-behavior: none;
+}
+
+.main-login{
+    background-color: #ec2f38d4;
+    min-height: 93vh;
+    font-family: Poppins;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 6vh;
+}

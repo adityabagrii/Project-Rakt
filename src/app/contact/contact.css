@@ -1,0 +1,56 @@
+body{
+    overscroll-behavior: none;
+}
+
+.contact-main{
+    background-color: #ec2f38d4;
+    height: 82dvh;
+    font-family: Poppins;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh 2vw;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    border-spacing: 1vh 0vh;
+}
+
+td>input {
+    width: 100%;
+    padding: 1vh 1vw;
+    margin: 1vh 0;
+    border-radius: 5px;
+    border: none;
+}
+td>textarea {
+    width: 100%;
+    padding: 1vh 1vw;
+    margin: 1vh 0;
+    border-radius: 5px;
+    border: none;
+}
+
+.submitBtn{
+    padding: 1vh 2vw;
+    border-radius: 1rem;
+    border: none;
+    background-color: white;
+    color: #710005;
+    font-size: 1.5vh;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.submitBtn:hover{
+    background-color: rgba(255, 255, 255, 0.819);
+}

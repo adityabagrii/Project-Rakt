@@ -1,0 +1,10 @@
+footer{
+    height: 7dvh;
+    background-color: #ec2f38e6;
+    border-top: 1px solid rgba(255, 255, 255, 0.266);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Poppins;
+    color: white;
+}

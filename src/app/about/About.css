@@ -1,0 +1,25 @@
+body{
+    overscroll-behavior: none;
+}
+.about-main{
+    background-color: #ec2f38d4;
+    height: 82dvh;
+    font-family: Poppins;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 2vw;
+}
+
+.aboutUs{
+    font-size: 7vh;
+}
+
+.abouttext{
+    font-size: 1.5vw;
+    text-align: justify;
+}
+
+.text{
+    padding: 1vh 2vw;
+}

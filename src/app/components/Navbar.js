@@ -13,9 +13,7 @@ const Navbar = () => {
                 <li><Link href={"/"} className='link'>Home</Link></li>
                 <li><Link href={"/about"} className='link'>About</Link></li>
                 <li><Link href={"/contact"} className='link'>Contact</Link></li>
-                <li><Link href={"/donate"} className="link">Donate</Link></li>
-                <li><Link href={"/login"} className="link">Login</Link></li>
-                <li><Link href={"/signup"} className="link"><button className='signupBtn'>SignUp</button></Link></li>
+                <li><Link href={"/login"} className="link"><button className='signupBtn'>Log In</button></Link></li>
             </ul>
         </div>
     </nav>
