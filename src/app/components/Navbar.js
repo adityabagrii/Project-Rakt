@@ -1,6 +1,8 @@
+"use client"
 import React from 'react'
 import '../styles/Navbar.css'
 import Link from 'next/link'
+import {useSession, signIn, signOut} from 'next-auth/react'
 
 const Navbar = () => {
   return (

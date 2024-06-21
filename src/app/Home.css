@@ -3,10 +3,11 @@ body{
 }
 
 .home-main{
-    background-color: #ec2f38d4;
+    background: repeating-linear-gradient(transparent, transparent 2px, white 2px, white 22px, transparent 22px, transparent 23px, white 23px, white 43px),
+    repeating-linear-gradient(0.25turn, #ec2f38d4, #ec2f38d4 2px, white 2px, white 22px, #ec2f38d4 22px, #ec2f38d4 23px, white 23px, white 43px);
+    color: #710005;
     min-height: 93vh;
     font-family: Poppins;
-    color: white;
     display: flex;
     flex-direction: column;
     padding-bottom: 6vh;
@@ -58,10 +59,8 @@ body{
 }
 
 .image{
-    border: 1px solid white;
     height:80%;
     aspect-ratio: 1/1;
-    background-color: white;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -83,5 +82,5 @@ body{
 .bottomLine{
     margin: 3vh auto;
     width: 95%;
-    border: 1px solid rgba(255, 255, 255, 0.266);
+    border: 1px solid #71000643;
 }

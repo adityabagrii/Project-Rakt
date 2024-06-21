@@ -4,11 +4,30 @@ body{
 }
 
 .main-login{
-    background-color: #ec2f38d4;
-    min-height: 93vh;
+    background: repeating-linear-gradient(transparent, transparent 2px, white 2px, white 22px, transparent 22px, transparent 23px, white 23px, white 43px),
+    repeating-linear-gradient(0.25turn, #ec2f38d4, #ec2f38d4 2px, white 2px, white 22px, #ec2f38d4 22px, #ec2f38d4 23px, white 23px, white 43px);
+    color: #710005;
+    min-height: 82vh;
     font-family: Poppins;
-    color: white;
     display: flex;
     flex-direction: column;
-    padding-bottom: 6vh;
+    align-items: center;
+    padding: 2vh 2vw;
+}
+
+.GitHub{
+    padding: 1vh 2vw;
+    border: 1px solid black;
+    font-size: 1vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.GitHub > img{
+    width: 2vw;
+    height: 2vw;
+    margin-right: 1vw;
 }

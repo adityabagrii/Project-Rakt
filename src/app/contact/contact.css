@@ -3,10 +3,11 @@ body{
 }
 
 .contact-main{
-    background-color: #ec2f38d4;
+    background: repeating-linear-gradient(transparent, transparent 2px, white 2px, white 22px, transparent 22px, transparent 23px, white 23px, white 43px),
+    repeating-linear-gradient(0.25turn, #ec2f38d4, #ec2f38d4 2px, white 2px, white 22px, #ec2f38d4 22px, #ec2f38d4 23px, white 23px, white 43px);
+    color: #710005;
     height: 82dvh;
     font-family: Poppins;
-    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -30,20 +31,20 @@ td>input {
     padding: 1vh 1vw;
     margin: 1vh 0;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #710005;
 }
 td>textarea {
     width: 100%;
     padding: 1vh 1vw;
     margin: 1vh 0;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #710005;
 }
 
 .submitBtn{
     padding: 1vh 2vw;
     border-radius: 1rem;
-    border: none;
+    border: 1px solid #710005;
     background-color: white;
     color: #710005;
     font-size: 1.5vh;

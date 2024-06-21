@@ -2,10 +2,11 @@ body{
     overscroll-behavior: none;
 }
 .about-main{
-    background-color: #ec2f38d4;
+    background: repeating-linear-gradient(transparent, transparent 2px, white 2px, white 22px, transparent 22px, transparent 23px, white 23px, white 43px),
+    repeating-linear-gradient(0.25turn, #ec2f38d4, #ec2f38d4 2px, white 2px, white 22px, #ec2f38d4 22px, #ec2f38d4 23px, white 23px, white 43px);
+    color: #710005;
     height: 82dvh;
     font-family: Poppins;
-    color: white;
     display: flex;
     flex-direction: column;
     padding: 2vh 2vw;
