@@ -3,63 +3,55 @@ body{
     overscroll-behavior: none;
 }
 
-.main-login{
+.main-signup{
     background: repeating-linear-gradient(transparent, transparent 2px, white 2px, white 22px, transparent 22px, transparent 23px, white 23px, white 43px),
     repeating-linear-gradient(0.25turn, #ec2f38d4, #ec2f38d4 2px, white 2px, white 22px, #ec2f38d4 22px, #ec2f38d4 23px, white 23px, white 43px);
     color: #710005;
-    min-height: 82vh;
     font-family: Poppins;
+    min-height: 81.9dvh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2vh 2vw;
 }
 
-.main-login > h1{
-    font-size: 2.5vw;
+.main-signup > h1{
+    font-size: 2vw;
     font-weight: 500;
 }
 
-.Login-Btn{
-    margin: 1vh 0vw;
-    padding: 1vh 2vw;
-    width: 18vw;
-    border: 1px solid black;
-    font-size: 1vw;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem;
-    gap: 1vw;
+.main-signup table{
+    border-collapse: separate;
+    border-spacing: 1vw;
 }
 
 .inputs{
     padding: 1vh 1vw;
     border-radius: 1rem;
     border: 1px solid black;
+    width: 20vw;
 }
 
-.Login-Btn > img{
-    width: 1.5vw;
-    aspect-ratio: 1/1;
+.main-signup label{
+    display: flex;
 }
 
-.login-form{
+.signupForm{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 1vh;
 }
 
-.login-form > button{
+.signupForm > button{
     padding: 1vh 1vw;
     border: 1px solid black;
     cursor: pointer;
+    background-color: #710005;
+    color: white;
     border-radius: 1rem;
+    transition: all 0.3s;
 }
 
-.signLink{
-    color: #710005;
+.signupForm > button:hover{
+    scale: 1.1;
 }

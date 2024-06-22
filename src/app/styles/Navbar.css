@@ -51,3 +51,28 @@ nav{
     font-size: 1vw;
     cursor: pointer;
 }
+
+.loggedIn{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+.loggedIn > img{
+    width: 2.5vw;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.loggedIn > img:hover{
+    scale: 1.1;
+}
+
+.loggedIn > form > button{
+    transition: all 0.3s;
+}
+
+.loggedIn > form > button:hover{
+    scale: 1.1;
+}
