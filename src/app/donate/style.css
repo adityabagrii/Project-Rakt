@@ -1,0 +1,63 @@
+body{
+    overscroll-behavior: none;
+}
+
+.main-donate{
+    background: repeating-linear-gradient(transparent, transparent 2px, white 2px, white 22px, transparent 22px, transparent 23px, white 23px, white 43px),
+    repeating-linear-gradient(0.25turn, #ec2f38d4, #ec2f38d4 2px, white 2px, white 22px, #ec2f38d4 22px, #ec2f38d4 23px, white 23px, white 43px);
+    color: #710005;
+    min-height: 82dvh;
+    font-family: Poppins;
+    padding: 2vh 2vw;
+    display: grid;
+    place-items: center;
+}
+
+.main-donate h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.main-donate h2{
+    font-weight: 500;
+    margin-bottom: 2vh;
+}
+
+.requirements{
+    border-top: 3px solid #710005;
+    border-left: 3px solid #710005;
+    border-right: 3px solid #710005;
+    width: 50vw;
+    background-color: #ffffffbd;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* css for the requirement card */
+.requirement-card{
+    border-bottom: 3px solid #710005;
+    width: 100%;
+    min-height: 10vh;
+    padding: 1vh 5vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hospital-deets{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: left;
+}
+
+.patient-deets{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    text-align: right;
+}

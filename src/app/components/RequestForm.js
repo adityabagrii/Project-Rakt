@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import '@/app/styles/req.css'
-import Link from 'next/link'
 import {useState} from 'react'
 import {useRouter} from 'next/navigation'
 
@@ -23,7 +22,7 @@ const RequestForm = (props) => {
             const city = formData.get('city')
             const pCode = formData.get('pCode')
             const state = formData.get('state')
-            
+
 
             const response = await fetch('/api/rBlood', {
                 method: 'POST',
@@ -81,24 +80,24 @@ return (
                         </td>
                     </tr>
                     <tr className='rows'>
-                        <td><label>Address Line 1 <p style={{color:"red"}}>*</p></label></td>
-                        <td><input className='inputs' type="text" name="add1" id="add1" placeholder='Enter your Address Line 1'required /></td>
+                        <td><label>Hospital Address Line 1 <p style={{color:"red"}}>*</p></label></td>
+                        <td><input className='inputs' type="text" name="add1" id="add1" placeholder="Enter Hospital's Address Line 1" required /></td>
                     </tr>
                     <tr className='rows'>
-                        <td><label>Address Line 2</label></td>
-                        <td><input className='inputs' type="text" name="add2" id="add2" placeholder='Enter your Address Line 2'/></td>
+                        <td><label>Hospital Address Line 2</label></td>
+                        <td><input className='inputs' type="text" name="add2" id="add2" placeholder= "Enter Hospital's Address Line 2" /></td>
                     </tr>
                     <tr className='rows'>
-                        <td><label>City <p style={{color:"red"}}>*</p></label></td>
-                        <td><input className='inputs' type="text" name="city" id="city" placeholder='Enter your City'required /></td>
+                        <td><label>Hospital City <p style={{color:"red"}}>*</p></label></td>
+                        <td><input className='inputs' type="text" name="city" id="city" placeholder="Enter Hospital's City" required /></td>
                     </tr>
                     <tr className='rows'>
-                        <td><label>Pin Code <p style={{color:"red"}}>*</p></label></td>
-                        <td><input className='inputs' type="number" name="pCode" id="pCode" placeholder='Enter your Pin Code'required /></td>
+                        <td><label>Hospital Pin Code <p style={{color:"red"}}>*</p></label></td>
+                        <td><input className='inputs' type="number" name="pCode" id="pCode" placeholder= "Enter Hospital's Pin Code" required /></td>
                     </tr>
                     <tr className='rows'>
-                        <td><label>State <p style={{color:"red"}}>*</p></label></td>
-                        <td><input className='inputs' type="text" name="state" id="state" placeholder='Enter your State'required /></td>
+                        <td><label>Hospital State <p style={{color:"red"}}>*</p></label></td>
+                        <td><input className='inputs' type="text" name="state" id="state" placeholder="Enter Hospital's State" required /></td>
                     </tr>
                 </tbody>
             </table>
