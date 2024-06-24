@@ -14,7 +14,8 @@ export const POST = async (request) => {
         add2,
         city,
         pCode,
-        state
+        state,
+        isCompleted: false
     }
     try{
         await createRequest(newRequest)

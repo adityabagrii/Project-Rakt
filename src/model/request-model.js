@@ -37,6 +37,10 @@ const requestSchema = new Schema({
         type: String,
         required: true
     },
+    isCompleted:{
+        type: Boolean,
+        required: true
+    }
 })
 
 export const Request = mongoose.models.Request || mongoose.model('Request', requestSchema)

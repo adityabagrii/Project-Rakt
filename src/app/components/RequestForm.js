@@ -6,6 +6,7 @@ import {useState} from 'react'
 import {useRouter} from 'next/navigation'
 
 const RequestForm = (props) => {
+    const router = useRouter()
 
     const [error, setError] = useState("")
 
@@ -22,7 +23,7 @@ const RequestForm = (props) => {
             const city = formData.get('city')
             const pCode = formData.get('pCode')
             const state = formData.get('state')
-            // console.log(pName, hName, bGroup, add1, add2, city, pCode, state)
+            
 
             const response = await fetch('/api/rBlood', {
                 method: 'POST',
