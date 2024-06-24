@@ -18,7 +18,7 @@ const Navbar = async () => {
                 <li className='options'><Link href={"/"} className='link'>Home</Link></li>
                 <li className='options'><Link href={"/about"} className='link'>About</Link></li>
                 <li className='options'><Link href={"/contact"} className='link'>Contact</Link></li>
-                {session ? <div className="loggedIn"><img src="./user.svg" alt="" /><form action={doLogout}><button type='submit' className='signupBtn'>Sign Out</button></form></div>: <li><Link href={"/login"} className="link"><button className='signupBtn'>Log In</button></Link></li>}
+                {session ? <div className="loggedIn"><Link href={"/dashboard"}><img src="./user.svg" alt="" /></Link><form action={doLogout}><button type='submit' className='signupBtn'>Sign Out</button></form></div>: <li><Link href={"/login"} className="link"><button className='signupBtn'>Log In</button></Link></li>}
                 
             </ul>
         </div>

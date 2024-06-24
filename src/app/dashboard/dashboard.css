@@ -1,0 +1,44 @@
+body{
+    overscroll-behavior: none;
+}
+
+.main-dashboard{
+    background: repeating-linear-gradient(transparent, transparent 2px, white 2px, white 22px, transparent 22px, transparent 23px, white 23px, white 43px),
+    repeating-linear-gradient(0.25turn, #ec2f38d4, #ec2f38d4 2px, white 2px, white 22px, #ec2f38d4 22px, #ec2f38d4 23px, white 23px, white 43px);
+    color: #710005;
+    height: 82dvh;
+    font-family: Poppins;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2vh 2vw;
+}
+
+.Oops{
+    color: #710005;
+    text-decoration: none;
+}
+
+.Oops:hover{
+    color: #710005;
+    text-decoration: underline;
+}
+
+.buttons{
+    width: 12vw;
+    margin: 1vh 0.5vw;
+    border-radius: 1rem;
+    padding: 1vh 2vw;
+    font-size: 1.5vh;
+    background-color: #710005;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.buttons:hover{
+    background-color: #e7121d;
+    scale: 1.05;
+}

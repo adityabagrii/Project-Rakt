@@ -1,0 +1,46 @@
+body{
+    font-family: Poppins;
+    overscroll-behavior: none;
+}
+
+.main-signup > h1{
+    font-size: 2vw;
+    font-weight: 500;
+}
+
+.main-signup table{
+    border-collapse: separate;
+    border-spacing: 1vw;
+}
+
+.inputs{
+    padding: 1vh 1vw;
+    border-radius: 1rem;
+    border: 1px solid black;
+    width: 20vw;
+}
+
+.main-signup label{
+    display: flex;
+}
+
+.signupForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signupForm > button{
+    padding: 1vh 1vw;
+    border: none;
+    cursor: pointer;
+    background-color: #710005;
+    color: white;
+    border-radius: 1rem;
+    transition: all 0.3s;
+}
+
+.signupForm > button:hover{
+    background-color: #e7121d;
+    scale: 1.1;
+}

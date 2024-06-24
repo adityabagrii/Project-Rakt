@@ -18,7 +18,7 @@ const LoginForm = () => {
             setError(response.error.message)
         }
         else {
-            router.push('/')
+          router.push('/dashboard')
         }
 
     } catch (error) {

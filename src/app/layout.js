@@ -2,6 +2,7 @@ import Head from "next/head";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import { auth } from "@/auth";
 
 import { dbConnect } from "@/lib/mongo";
 
