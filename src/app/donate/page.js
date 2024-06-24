@@ -44,12 +44,11 @@ const page = async () => {
                     <h1>Donate Blood to save lives.</h1>
                     <h2>Here is the list of requirements in your area!</h2>
                 </div>
-              <div className="requirements">
-                {/* Map data arr to requirments */}
-                {reqs.map((req) => (
-                    <Requirement key={req._id} hName={req.hName} add1={req.add1} add2={req.add2} city={req.city} state={req.state} pName={req.pName} bGroup={req.bGroup} />
-                ))}
-              </div>
+                <div className="requirements">
+                    {reqs.map((req) => (
+                        <Requirement key={req._id} hName={req.hName} add1={req.add1} add2={req.add2} city={req.city} state={req.state} pName={req.pName} bGroup={req.bGroup} />
+                    ))}
+                </div>
             </div>
         )
     }

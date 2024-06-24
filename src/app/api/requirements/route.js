@@ -19,7 +19,7 @@ export const GET = async (request) => {
     const user = await User.findOne({ email: email })
     const userCity = user.city
     const userState = user.state
-    const requests = await Request.find({ city: userCity, state: userState, email: { $ne: email }})
+    const requests = await Request.find({ city: userCity, state: userState, email: { $ne: email }, isCompleted: false})
 
     return new NextResponse(JSON.stringify(requests), {
         status: 200,
