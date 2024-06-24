@@ -44,11 +44,10 @@ const page = async () => {
                     <h1>Donate Blood to save lives.</h1>
                     <h2>Here is the list of requirements in your area!</h2>
                 </div>
-                <div className="requirements">
-                    {reqs.map((req) => (
-                        <Requirement key={req._id} hName={req.hName} add1={req.add1} add2={req.add2} city={req.city} state={req.state} pName={req.pName} bGroup={req.bGroup} />
-                    ))}
-                </div>
+                {/* if reqs is empty display text no requirements */}
+                {reqs.length === 0 && <h1>No requirements</h1>}
+                {/* if reqs is not empty display the requirements */}
+                {reqs.length !== 0 && <div className="requirements">{reqs.map((req) => (<Requirement key={req._id} hName={req.hName} add1={req.add1} add2={req.add2} city={req.city} state={req.state} pName={req.pName} bGroup={req.bGroup} />))}</div>}
             </div>
         )
     }
