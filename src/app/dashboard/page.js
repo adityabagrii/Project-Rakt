@@ -12,7 +12,7 @@ const page = async () => {
             <div className='main-dashboard'>
                 <h1>Access Denied</h1>
                 <p>You need to be logged in to access this page</p>
-                <p>Click <Link href='/login'>here</Link> to login</p>
+                <p><Link href='/login'>Click here</Link> to login</p>
             </div>
         )
     }
@@ -23,6 +23,7 @@ const page = async () => {
                 <div className='btns'>
                     <Link href={"/donate"}><button className='buttons'>Donote Blood</button></Link>
                     <Link href={"/request"}><button className='buttons'>Request Blood</button></Link>
+                    <Link href={"/myreqs"}><button className='buttons'>My requests</button></Link>
                 </div>
             </div>
           )

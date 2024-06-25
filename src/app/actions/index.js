@@ -21,3 +21,18 @@ export async function doLogin(formData){
         console.error(error)
     }   
 }
+
+export async function completeRequirement(id){
+    try{
+        const response = await fetch(`http://localhost:3000/api/myreqs`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({id: id})
+        })
+    }
+    catch(error){
+        console.error(error)
+    }
+}

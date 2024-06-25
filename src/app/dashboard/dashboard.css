@@ -15,15 +15,16 @@ body{
     padding: 2vh 2vw;
 }
 
-.Oops{
-    color: #710005;
+.here{
     text-decoration: none;
+    color: #710005;
 }
 
-.Oops:hover{
-    color: #710005;
+.here:hover{
+    color: #e7121d;
     text-decoration: underline;
 }
+
 
 .buttons{
     width: 12vw;
