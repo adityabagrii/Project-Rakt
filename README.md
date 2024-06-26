@@ -15,3 +15,5 @@ Rakt is a life-saving platform designed to connect individuals in urgent need of
 - **Next.js**: React framework for server-side rendering and static site generation
 - **NextAuth**: Authentication for Next.js applications
 - **MongoDB**: NoSQL database for storing user and blood request data
+
+## Demo
