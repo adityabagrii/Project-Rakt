@@ -17,3 +17,6 @@ Rakt is a life-saving platform designed to connect individuals in urgent need of
 - **MongoDB**: NoSQL database for storing user and blood request data
 
 ## Demo
+
+[Watch here](https://github.com/adityabagrii/Project-Rakt/assets/130608893/2b0cfde3-e9b9-42a6-bdbe-7d602a06c9d7)
+
